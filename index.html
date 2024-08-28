@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+    <div class="background">
+
+    <div class="calculator">
+
+        <div class="output__screen__container">
+
+          <p class = "calculator__output">0</p>
+          <p class="calculator__after"></p>
+
+        </div>
+      
+        <div class="calculator__keys">
+
+          <button onclick="display('+')" class="calculator__key calculator__key--operator">+</button>
+          <button onclick="display('-')" class="calculator__key calculator__key--operator">-</button>
+          <button onclick="display('&times')" class="calculator__key calculator__key--operator">&times;</button>
+          <button onclick="display('÷')" class="calculator__key calculator__key--operator">÷</button>
+
+          <button onclick="display(7)" class="calculator__key">7</button>
+          <button onclick="display(8)" class="calculator__key">8</button>
+          <button onclick="display(9)" class="calculator__key">9</button>
+          <button onclick="backSpace()" class="calculator__key calculator__key--backspace"><i class="material-icons">backspace</i></button>
+          <button onclick="display(4)" class="calculator__key">4</button>
+          <button onclick="display(5)" class="calculator__key">5</button>
+          <button onclick="display(6)" class="calculator__key">6</button>
+          <button onclick="display(1)" class="calculator__key">1</button>
+          <button onclick="display(2)" class="calculator__key">2</button>
+          <button onclick="display(3)" class="calculator__key">3</button>
+          <button onclick="display(0)" class="calculator__key">0</button>
+          <button onclick="display('.')" class="calculator__key">.</button>
+
+          <button onclick="reset()" class="calculator__key">AC</button>
+
+          <button onclick="display('=')" class="calculator__key calculator__key--enter">=</button>
+
+        </div>
+      </div>
+      </div>
+
+      <script src="script.js"></script>
+
+</body>
+</html>
